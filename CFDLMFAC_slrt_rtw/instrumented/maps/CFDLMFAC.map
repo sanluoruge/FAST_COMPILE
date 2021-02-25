@@ -1,0 +1,65 @@
+const signalNameMap CFDLMFAC_BIOMAP[] =
+  {
+	{0,0,1},
+	{5,5,39},
+	{1,1,1},
+	{2,2,1},
+	{3,3,1},
+	{4,4,1},
+{-1, -1,6}
+  };
+const signalLabelMap CFDLMFAC_LBLMAP[] =
+  {
+	{0,0,1},
+	{1,1,1},
+	{2,2,1},
+	{3,3,1},
+	{4,4,1},
+	{5,5,39},
+{-1, -1,6}
+  };
+const signalIdMap CFDLMFAC_SIDMAP[] =
+  {
+	{0,0,1},
+	{1,1,1},
+	{2,2,1},
+	{3,3,1},
+	{4,4,1},
+	{5,5,39},
+{-1, -1,6}
+  };
+const SortedBlockSignals  CFDLMFAC_SBIO[] ={
+       0,
+       5,
+       1,
+       2,
+       3,
+       4,
+      -1
+};
+const SortedBlockLabels  CFDLMFAC_SLBL[] ={
+       0,
+       1,
+       2,
+       3,
+       4,
+       5,
+      -1
+};
+const OldSortedBlockParameters  CFDLMFAC_PTIDSMAP[] ={
+	{-1,-1},
+};
+const OldSortedBlockParameters  CFDLMFAC_PTNAMESMAP[] ={
+	{-1,-1},
+};
+const SortedBlockParameters  CFDLMFAC_SPTMAP[] ={
+      -1
+};
+
+
+const EnumElemMapInfo CFDLMFAC_dtmap[] = 
+{
+	{
+		NULL,NULL,0
+	},
+};

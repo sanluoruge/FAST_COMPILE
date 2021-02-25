@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?><Root>
+      		<SubSystem>
+		<Name>Atomic Subsystem</Name>
+		<xPCName>CFDLMFAC/Atomic Subsystem</xPCName>
+		
+		
+
+		</SubSystem>
+		<SubSystem>
+		<Name>FAST Nonlinear Wind Turbine</Name>
+		<xPCName>CFDLMFAC/FAST Nonlinear Wind Turbine</xPCName>
+		
+		
+			  
+			  
+              <signal>
+              <sigName>S-Function</sigName>
+              <xpcsigName>FAST Nonlinear Wind Turbine/S-Function</xpcsigName>
+              <sigWidth>39</sigWidth>
+              <sigDim>[39, 1]</sigDim>
+			  <SubSystemName>CFDLMFAC/FAST Nonlinear Wind Turbine</SubSystemName>
+			  <sigTestPoint>false</sigTestPoint>
+            </signal>
+
+		</SubSystem>
+		<SubSystem>
+		<Name>High-Speed Shaft Brake</Name>
+		<xPCName>CFDLMFAC/High-Speed Shaft Brake</xPCName>
+		
+		
+
+		</SubSystem>
+		<SubSystem>
+		<Name>Scope </Name>
+		<xPCName>CFDLMFAC/Scope </xPCName>
+		
+		
+
+		</SubSystem>
+		<SubSystem>
+		<Name>Torque Controller</Name>
+		<xPCName>CFDLMFAC/Torque Controller</xPCName>
+		
+		
+
+		</SubSystem>
+		<SubSystem>
+		<Name>Yaw Controller</Name>
+		<xPCName>CFDLMFAC/Yaw Controller</xPCName>
+		
+		
+
+		</SubSystem>
+
+      
+			  
+			  
+              <signal>
+              <sigName>Clock</sigName>
+              <xpcsigName>Clock</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+			  <SubSystemName>CFDLMFAC</SubSystemName>
+			  <sigTestPoint>false</sigTestPoint>
+            </signal>
+			  
+			  
+              <signal>
+              <sigName>Generator speed</sigName>
+              <xpcsigName>Generator speed</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+			  <SubSystemName>CFDLMFAC</SubSystemName>
+			  <sigTestPoint>false</sigTestPoint>
+            </signal>
+			  
+			  
+              <signal>
+              <sigName>Pitch</sigName>
+              <xpcsigName>Pitch</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+			  <SubSystemName>CFDLMFAC</SubSystemName>
+			  <sigTestPoint>false</sigTestPoint>
+            </signal>
+			  
+			  
+              <signal>
+              <sigName>power</sigName>
+              <xpcsigName>power</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+			  <SubSystemName>CFDLMFAC</SubSystemName>
+			  <sigTestPoint>false</sigTestPoint>
+            </signal>
+			  
+			  
+              <signal>
+              <sigName>wind speed</sigName>
+              <xpcsigName>wind speed</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+			  <SubSystemName>CFDLMFAC</SubSystemName>
+			  <sigTestPoint>false</sigTestPoint>
+            </signal>
+
+</Root>
